@@ -1,9 +1,6 @@
 extra_cheese = 0
 extra = 2
 net_price = 0
-# total_price = 0
-
-# from piizza_order import net_price
 
 
 def add_extra_menu():

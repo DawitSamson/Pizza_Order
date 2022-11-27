@@ -1,7 +1,6 @@
 # order pizza with discount whill playing dice game
 from add_extra import add_extra_menu
 from next_order import next_order_req
-from discount import discount_game
 from exit_text import exit_message
 
 pizza_size = {
@@ -45,5 +44,3 @@ def customer_order():
             add_extra_menu()
             # Asking to order another using function
             next_order_req()
-            # discount game using function
-            # discount_game()

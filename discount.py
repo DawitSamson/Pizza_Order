@@ -1,7 +1,7 @@
 import random
 from next_order import Ttl_price_delivery
 new_price = 0
-# Ttl_price_delivery = 0
+
 
 
 def discount_game():

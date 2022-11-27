@@ -6,7 +6,6 @@ Ttl_price_delivery = 0
 from discount import discount_game
 
 
-
 def next_order_req():
     global Ttl_price_delivery, outside_delivery, beersheva_delivery
     next_order = input("Do you went to order another pizza yes/no: ")
