@@ -28,6 +28,7 @@ def customer_order():
     global next_order, new_price, net_price
     print("\n******************** 'Pizza.io' House of Pizza  ******************")
     age = int(input("\n To continue your order Please enter your age: "))
+    print("\n\t\t\tWelcome to 'Pizza.io' House of pizza!!! Please Make your order.")
     while age < 18:
         exit_message()
         break
@@ -35,7 +36,8 @@ def customer_order():
         while next_order == "yes" or next_order == "y":
             global quantity
             # Ordering a pizza size
-            print("\n\t\t\tWelcome to 'Pizza.io' House of pizza!!! Please Make your order.")
+            from next_order import pizza_list
+            pizza_list()
             choice_size = input("\n Please choose pizza size s/m/l/xl: ")
             quantity = int(input("\t\t\t\tHow much you need?  "))
             net_price += pizza_size[choice_size] * quantity  # --------------------- using dictionary
@@ -44,4 +46,4 @@ def customer_order():
             # Asking to order another using function
             next_order_req()
             # discount game using function
-            discount_game()
+            # discount_game()
