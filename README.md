@@ -21,3 +21,4 @@ Our company also make a delivery so if the destination is in "Beer Sheva" will b
 Bonus!
 Write a program for a dice game that knows how to randomly draw a number between 1-9. The resulting must calculate the product of the numbers and subtract them.
 				Good Luck  
+
